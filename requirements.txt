@@ -1,0 +1,5 @@
+selenium
+pillow
+openai
+beautifulsoup4
+requests
