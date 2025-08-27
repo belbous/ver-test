@@ -2,8 +2,6 @@ name: Run site test
 
 on:
   push:
-  schedule:
-    - cron: "*/10 * * * *"   # каждый час
   workflow_dispatch:
 
 jobs:
