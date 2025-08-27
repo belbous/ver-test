@@ -41,12 +41,12 @@ if __name__ == "__main__":
     if img_ok:
         result_msg.append("✅ Скриншоты совпадают")
     else:
-        result_msg.append("❌ Найдены отличия на скриншоте (см. diff.png)")
+        result_msg.append("Упс... Найдены отличия на скриншоте (diff.png)")
 
     if dom_ok:
         result_msg.append("✅ DOM совпадает")
     else:
-        result_msg.append("❌ Найдены отличия в DOM (см. dom_diff.txt)")
+        result_msg.append("Упс... Найдены отличия в DOM (DOM_diff.txt)")
 
     final_report = "\n".join(result_msg)
     print(final_report)
@@ -54,3 +54,4 @@ if __name__ == "__main__":
     # если настроен Telegram — отправляем
     if cfg.get("telegram_token") and cfg.get("telegram_chat_id"):
         send_telegram(cfg["telegram_token"], cfg["telegram_chat_id"], final_report)
+
