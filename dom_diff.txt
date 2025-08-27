@@ -1,0 +1,302 @@
+--- baseline
++++ current
+@@ -295,8 +295,6 @@
+   <link crossorigin="" href="https://veronica.ru/_nuxt/asset_HeaderComponent_zLBNlNO_.css" rel="stylesheet"/>
+   <link crossorigin="" href="https://veronica.ru/_nuxt/asset_BarComponent_CRs5pNTg.css" rel="stylesheet"/>
+   <link crossorigin="" href="https://veronica.ru/_nuxt/asset_DoctorTilesAnimation_d7qa8bL8.css" rel="stylesheet"/>
+-  <link crossorigin="" href="https://veronica.ru/_nuxt/asset_Cursor_i_1190Uk.css" rel="stylesheet"/>
+-  <link crossorigin="" href="https://veronica.ru/_nuxt/asset_CommonBannerKidsLink_DxkFMUp_.css" rel="stylesheet"/>
+  </head>
+  <body>
+   <div id="__nuxt">
+@@ -515,11 +513,11 @@
+        <div class="page-main" data-v-a2883ffd="" itemscope="" itemtype="https://schema.org/WebPage">
+         <!--[-->
+         <!-- -->
+-        <a aria-label="Перейти на детскую клинику" class="banner-kids-link" data-v-91c985bf="" href="/kids/">
++        <a aria-label="Перейти на детскую клинику" class="banner-kids-link--scrolled banner-kids-link" data-v-91c985bf="" href="/kids/">
+          <video autoplay="" class="banner-kids-link__video" data-v-91c985bf="" loop="" muted="" playsinline="">
+           <source data-v-91c985bf="" src="https://veronica.ru/video/upload/files/2025/02/27/veronica-kids-brushing01-v1-0007-1-1-1-67c06f81b4800632502337.mp4" type="video/mp4"/>
+          </video>
+-         <svg class="banner-kids-link__circle" data-v-91c985bf="" viewbox="0 0 200 200">
++         <svg class="banner-kids-link__circle--hidden banner-kids-link__circle" data-v-91c985bf="" viewbox="0 0 200 200">
+           <path d="
+         M 120,160
+         L 80,160
+@@ -761,124 +759,124 @@
+            </h2>
+           </div>
+           <div class="doctor-tiles__body-wrapper" data-v-40cc5a0f="">
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/nikolaeva-aleksandra-sergeevna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/07/25/nikolaeva-aleksandra-sergeevna-6883d5c780d08090944063.jpg"); left: 680px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/plahina-elena-vladimirovna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/plahina-elena-vladimirovna-6827242c30424780273851.jpg"); left: 550px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/bakshaeva-natalya-grigorevna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/bakshaeva-natalya-grigorevna-6827242bc450a156684731.jpg"); left: 680px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/zavadskij-vladislav-yurevich/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/zavadskij-vladislav-yurevich-6827242c96fc7713678667.jpg"); left: 540px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/bykov-aleksey-gennadievich/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/bykov-aleksey-gennadievich-6827242c8d482090956990.jpg"); left: 680px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/satina-anna-andreevna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/satina-anna-andreevna-6827242c3a00b782497720.jpg"); left: 550px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+             </div>
+            </a>
+            <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/yudin-sergej-vasilevich/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/19/yudin-sergej-vasilevich-682b125c1aec8714843964.jpg"); left: 410px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/zaripova-guzel-nailovna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/20/zaripova-guzel-nailovna-682cb738b40f8080856390.jpg"); left: 540px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/gabasova-karina-tahirovna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/gabasova-karina-tahirovna-6827242c907e5995137177.jpg"); left: 400px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/19/yudin-sergej-vasilevich-682b125c1aec8714843964.jpg"); left: 680px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/kozyrenko-anton-sergeevich/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/19/kozyrenko-anton-sergeevich-682b1fa8d304d245947532.jpg"); left: 540px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/davidenko-dmitrij-yurevich/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/davidenko-dmitrij-yurevich-6827242c8f371743342424.jpg"); left: 410px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/spicyna-mariya-nikolaevna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/spicyna-mariya-nikolaevna-6827242c4815a667199091.jpg"); left: 540px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+             </div>
+            </a>
+            <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/sidorov-lev-evgenevich/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/sidorov-lev-evgenevich-6827242c4268f183657303.jpg"); left: 270px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/malysheva-tatyana-anatolevna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/malysheva-tatyana-anatolevna-6827242c2040e439068691.jpg"); left: 400px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/dmitrieva-elena-aleksandrovna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/dmitrieva-elena-aleksandrovna-6827242be6949468781259.jpg"); left: 260px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/gapeeva-tamara-alekseevna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/gapeeva-tamara-alekseevna-6827242c91c86585135513.jpg"); left: 130px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/uvakina-liliya-anverovna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/20/uvakina-liliya-anverovna-682c976281d4a083404687.jpg"); left: 260px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/nazarov-maksim-igorevich/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/nazarov-maksim-igorevich-6827242c2a9dc759685642.jpg"); left: 120px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/sidorov-lev-evgenevich-6827242c4268f183657303.jpg"); left: 400px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/krutij-natalya-viktorovna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/krutij-natalya-viktorovna-6827242c1d583551345445.jpg"); left: 270px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/pozdnyakova-olga-borisovna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/pozdnyakova-olga-borisovna-6827242c95c4e021533279.jpg"); left: 400px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/alyoshina-elena-vladimirovna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/alyoshina-elena-vladimirovna-6827242c8877b017262148.jpg"); left: 260px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/karpus-aleksandr-sergeevich/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/19/karpus-aleksandr-sergeevich-682af3492307f993212336.jpg"); left: 130px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/malyugo-aleksandr-viktorovich/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/malyugo-aleksandr-viktorovich-6827242c222bb948444963.jpg"); left: 260px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/smirnov-dmitrij-nikolaevich/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/smirnov-dmitrij-nikolaevich-6827242c44fdb702621775.jpg"); left: 120px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+             </div>
+            </a>
+            <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/selyunina-olga-vyacheslavovna/">
+             <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/selyunina-olga-vyacheslavovna-6827242c96685239571292.jpg"); left: -10px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+             </div>
+            </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/naumova-yuliya-viktorovna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/naumova-yuliya-viktorovna-6827242c282c3504014050.jpg"); left: 120px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/ivancova-angelina-andreevna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/ivancova-angelina-andreevna-6827242c933da993272090.jpg"); left: -20px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/davidenko-dmitrij-yurevich/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/davidenko-dmitrij-yurevich-6827242c8f371743342424.jpg"); left: -150px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/karpus-aleksandr-sergeevich/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/19/karpus-aleksandr-sergeevich-682af3492307f993212336.jpg"); left: -20px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/moiseenko-konstantin-aleksandrovich/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/19/moiseenko-konstantin-aleksandrovich-682b1aa3ee9eb738195323.jpg"); left: -160px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/gridchuk-ekaterina-sergeevna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/gridchuk-ekaterina-sergeevna-6827242c0c1cd541163109.jpg"); left: 120px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/uvakina-liliya-anverovna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/20/uvakina-liliya-anverovna-682c976281d4a083404687.jpg"); left: -20px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/fomina-irina-nikolaevna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/fomina-irina-nikolaevna-6827242bf13aa943509526.jpg"); left: -150px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/gabasova-karina-tahirovna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/gabasova-karina-tahirovna-6827242c907e5995137177.jpg"); left: -20px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/balicheva-kseniya-olegovna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/balicheva-kseniya-olegovna-6827242c89850556058963.jpg"); left: -160px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/putro-artur-andreevich/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/19/putro-artur-andreevich-682b0bbc06c2c705493535.jpg"); left: -290px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/bazarov-aleksej-hamrakulyevich/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/19/bazarov-aleksej-hamrakulyevich-682ae0747a486817366660.jpg"); left: -160px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/bakshaeva-natalya-grigorevna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/bakshaeva-natalya-grigorevna-6827242bc450a156684731.jpg"); left: -300px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/postnikova-irina-vladislavovna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/postnikova-irina-vladislavovna-6827242c31c84595989475.jpg"); left: -430px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/golovanova-yuliya-viktorovna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/golovanova-yuliya-viktorovna-6827242c92394068224031.jpg"); left: -300px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+             </div>
+            </a>
+            <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/halatov-evgenij-arsenovich/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/halatov-evgenij-arsenovich-6827242c92b6a861084826.jpg"); left: -290px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/alyoshina-elena-vladimirovna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/alyoshina-elena-vladimirovna-6827242c8877b017262148.jpg"); left: -160px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/baranov-aleksej-alekseevich/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/06/02/baranov-aleksei-683da5755a89e489039366.jpg"); left: -300px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/spicyna-mariya-nikolaevna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/spicyna-mariya-nikolaevna-6827242c4815a667199091.jpg"); left: -430px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/bykov-aleksey-gennadievich/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/bykov-aleksey-gennadievich-6827242c8d482090956990.jpg"); left: -300px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/solyanaya-olga-sergeevna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/solyanaya-olga-sergeevna-6827242c469bd041654632.jpg"); left: -440px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/malyugo-aleksandr-viktorovich/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/malyugo-aleksandr-viktorovich-6827242c222bb948444963.jpg"); left: -570px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/putro-artur-andreevich/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/19/putro-artur-andreevich-682b0bbc06c2c705493535.jpg"); left: -440px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/golovanova-yuliya-viktorovna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/golovanova-yuliya-viktorovna-6827242c92394068224031.jpg"); left: -580px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/dorofeeva-ekaterina-borisovna/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/dorofeeva-ekaterina-borisovna-6827242c8fe2e917587701.jpg"); left: -710px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+-            </div>
+-           </a>
+-           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/gamanovich-kirill-anatolevich/">
+-            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/gamanovich-kirill-anatolevich-6827242c9134e256263836.jpg"); left: -580px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/halatov-evgenij-arsenovich-6827242c92b6a861084826.jpg"); left: -440px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/rastorgueva-svetlana-mihajlovna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/rastorgueva-svetlana-mihajlovna-6827242c3521e481505356.jpg"); left: -570px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/bandrovskij-evgenij-olegovich/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/bandrovskij-evgenij-olegovich-6827242c8a9fb639039725.jpg"); left: -440px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/zaripova-guzel-nailovna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/20/zaripova-guzel-nailovna-682cb738b40f8080856390.jpg"); left: -580px; top: 140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/malysheva-tatyana-anatolevna/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/16/malysheva-tatyana-anatolevna-6827242c2040e439068691.jpg"); left: -710px; top: 0px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
++            </div>
++           </a>
++           <a class="doctor-tiles__body-item" data-v-40cc5a0f="" href="/adult/personal/sanduhadze-dito-ditovich/">
++            <div class="doctor-tiles__body-item-img" data-v-40cc5a0f="" style='background-image: url("https://veronica.ru/cache/media/w600/upload/media/2025/05/19/sanduhadze-dito-ditovich-682b0577a67e9594259071.jpg"); left: -580px; bottom: calc(-50% + 200px); top: -140px; transform: matrix(0.8, 0, 0, 0.8, 0, 0);'>
+             </div>
+            </a>
+           </div>
+@@ -4654,7 +4652,7 @@
+         <div class="footer__info-legal" data-v-4085f5bf="">
+          <p data-v-4085f5bf="">
+           2000–
+-          <time data-prehydrate-id=":gNGxWYECky:" data-v-4085f5bf="" data-year="numeric" datetime="2025-08-26T17:01:24.014Z">
++          <time data-prehydrate-id=":gNGxWYECky:" data-v-4085f5bf="" data-year="numeric" datetime="2025-08-26T18:12:42.535Z">
+            2025
+           </time>
+           © Стоматологическая клиника «Вероника»
+@@ -4744,7 +4742,38 @@
+      </div>
+     </div>
+     <!-- -->
+-    <!-- -->
++    <div class="cookie-banner" data-v-0e10d5f4="">
++     <div class="cookie-banner-content" data-v-0e10d5f4="">
++      <div class="cookie-banner-content__icon" data-v-0e10d5f4="">
++       <span class="nuxt-icon" data-v-0e10d5f4="">
++        <svg fill="none" height="79" viewbox="0 0 79 79" width="79" xmlns="http://www.w3.org/2000/svg">
++         <path d="M39.4773 79C34.0259 79 28.8471 77.9548 24.0317 75.8645C19.2617 73.8196 15.0823 70.9567 11.5389 67.4123C7.99545 63.8678 5.17885 59.6417 3.13457 54.8702C1.04487 50.0534 0 44.873 0 39.4199C0 34.4667 0.95402 29.559 2.86201 24.833C4.72458 20.1525 7.40486 15.8809 10.812 12.2001C14.2191 8.47383 18.3531 5.47465 23.1231 3.20255C29.1196 0.385135 35.843 -0.432823 43.2478 0.203367C44.6107 0.339693 46.0189 0.521461 47.4726 0.839556C49.9258 1.33942 51.743 3.74785 51.2433 6.20173C50.8799 8.01941 50.9253 9.38267 51.5158 10.9277C52.1518 12.5636 53.015 13.8814 54.1961 14.9266C55.3772 15.9718 56.831 16.6989 58.5119 17.1078C60.1019 17.4714 61.6918 17.3805 63.4635 16.7897C65.1444 16.199 67.0524 16.6989 68.279 18.0167C69.5055 19.3345 69.8235 21.2885 69.0966 22.9244C68.1881 25.0148 68.279 26.6961 69.4601 28.6047C70.5958 30.4678 72.095 31.2858 74.4118 31.3767C76.7287 31.4675 78.5912 33.2398 78.8184 35.5119C78.8638 36.239 78.9092 36.8751 78.9547 37.5113C78.9547 38.1021 79 38.7837 79 39.5108C79 44.9184 77.9551 50.0534 75.8654 54.8248C73.8211 59.5508 71.0047 63.7769 67.4613 67.3214C63.9179 70.9113 59.693 73.7742 54.923 75.819C50.1076 77.9094 44.9287 78.9546 39.4773 78.9546V79ZM30.9822 2.70268C14.3554 5.7473 8.67676 18.153 7.58647 19.9252C3.17991 27.0597 2.36233 33.6942 2.18062 35.2847C1.9989 37.1478 1.3629 44.1913 4.58832 52.4164C5.63317 55.0974 10.3122 67.0942 23.2139 72.7744C31.391 76.3644 38.7505 75.5464 41.9305 75.1829C52.6062 73.865 59.6021 68.412 62.1916 66.3216C68.4607 61.2776 71.8677 55.5519 73.594 52.0983C77.3191 42.1919 76.865 38.8292 75.4113 37.784C74.2755 36.966 72.9127 37.8749 70.2778 36.7388C67.4158 35.4664 65.962 33.058 65.644 32.4673C64.3266 30.0588 64.3266 27.7867 64.372 26.787C64.5083 22.5609 66.7798 20.7886 65.8712 19.5163C64.9627 18.2439 62.5095 19.7889 58.0121 19.3799C56.1041 19.1982 51.0162 18.6983 48.7448 15.0175C48.3813 14.4267 46.7458 11.7911 47.6544 9.47356C48.0633 8.3375 49.3807 6.33805 49.1989 5.15656C49.1081 4.74758 48.9264 4.38404 48.9264 4.38404C48.0178 2.92989 47.1093 2.97534 45.2467 2.38459C42.2938 1.47575 36.7061 1.70296 31.0276 2.74813L30.9822 2.70268Z" fill="black">
++         </path>
++         <path d="M32.4983 34.8764C28.1371 34.8764 24.5938 31.3319 24.5938 26.9694C24.5938 22.607 28.1371 19.0625 32.4983 19.0625C36.8594 19.0625 40.4028 22.607 40.4028 26.9694C40.4028 31.3319 36.8594 34.8764 32.4983 34.8764ZM32.1802 20.4258C28.8185 19.9713 25.684 22.9251 25.7295 26.2878C25.7295 29.1052 28.0009 31.8772 31.09 32.0135C34.1791 32.1953 36.7685 29.696 37.0411 26.7422C37.3137 23.6976 35.1331 20.8347 32.1802 20.4258Z" fill="black">
++         </path>
++         <path d="M56.1797 48.0399C56.1797 49.4486 55.6347 50.8119 54.5898 51.8116C53.5904 52.7659 52.273 53.2658 51.001 53.2658C49.6381 53.2658 48.2752 52.7205 47.2303 51.6298C45.2769 49.5849 45.3678 46.3131 47.4121 44.3137C49.5018 42.3596 52.7726 42.4051 54.7715 44.4954C55.7255 45.4952 56.1797 46.7675 56.1797 48.0399Z" fill="black">
++         </path>
++         <path d="M24.9577 52.9013C24.9123 53.9464 24.5035 54.9461 23.7312 55.6278C23.0044 56.3549 22.0504 56.7184 21.051 56.7184H20.96C19.9152 56.7184 18.9613 56.264 18.2344 55.4914C17.5076 54.7644 17.0986 53.7647 17.144 52.7195C17.144 51.6743 17.5984 50.72 18.3707 49.993C19.0976 49.2659 20.1423 48.9023 21.1418 48.9023C22.1866 48.9023 23.1407 49.3568 23.8675 50.1293C24.5944 50.8564 24.9577 51.8561 24.9577 52.9013Z" fill="black">
++         </path>
++        </svg>
++       </span>
++      </div>
++      <div class="cookie-banner-content__desc" data-v-0e10d5f4="">
++       Мы хотим, чтобы сайт работал для вас идеально. Для этого нам нужны cookies — небольшие файлы, которые помогают всё запомнить и ускоряют работу сайта. Без них — совсем не то. Подробнее о том, как мы их используем — в нашей
++       <a class="cookie-banner-content__desc-link" data-v-0e10d5f4="" href="/adult/policy/">
++        политике конфиденциальности
++       </a>
++      </div>
++     </div>
++     <div class="cookie-banner-action" data-v-0e10d5f4="">
++      <button class="cookie-banner-action__button" data-v-0e10d5f4="">
++       Принять cookies
++      </button>
++      <a class="cookie-banner-action__link" data-v-0e10d5f4="" href="/adult/pers_sogl/">
++       Пользовательское соглашение
++      </a>
++     </div>
++    </div>
+    </div>
+   </div>
+   <div id="teleports">
