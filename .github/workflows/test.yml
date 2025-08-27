@@ -1,0 +1,28 @@
+name: Web Checker
+
+on:
+  push:
+  schedule:
+    - cron: "0 * * * *"   # каждый час
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Установка Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Установка зависимостей
+        run: |
+          pip install -r requirements.txt
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser chromium-chromedriver
+
+      - name: Запуск проверки
+        run: python main.py
