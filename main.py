@@ -4,14 +4,24 @@ from selenium import webdriver
 from compare import pixel_compare, dom_compare
 from notify import send_telegram
 
-def take_screenshot_and_html(url, out_img="current.png", out_html="current.html"):
-    driver = webdriver.Chrome()
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+
+def take_screenshot_and_html(url, screenshot_path, html_path):
+    options = Options()
+    options.add_argument("--headless")  # режим без окна
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+
+    driver = webdriver.Chrome(options=options)
     driver.get(url)
-    time.sleep(3)  # ждём загрузки
-    driver.save_screenshot(out_img)
-    with open(out_html, "w", encoding="utf-8") as f:
+
+    driver.save_screenshot(screenshot_path)
+    with open(html_path, "w", encoding="utf-8") as f:
         f.write(driver.page_source)
+
     driver.quit()
+
 
 if __name__ == "__main__":
     with open("config.json") as f:
