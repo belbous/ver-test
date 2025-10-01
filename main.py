@@ -1,17 +1,28 @@
-import time
 import json
-from selenium import webdriver
+import os
 from compare import pixel_compare, dom_compare
 from notify import send_telegram
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
 def take_screenshot_and_html(url, screenshot_path, html_path):
     options = Options()
-    options.add_argument("--headless")  # режим без окна
+    options.add_argument("--headless=new")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--window-size=1366,768")
+
+    # Try common chromium/chrome locations in CI environments
+    chromium_paths = [
+        "/usr/bin/chromium-browser",
+        "/usr/bin/chromium",
+        "/usr/bin/google-chrome",
+        "/usr/bin/google-chrome-stable",
+    ]
+    for path in chromium_paths:
+        if os.path.exists(path):
+            options.binary_location = path
+            break
 
     driver = webdriver.Chrome(options=options)
     driver.get(url)
@@ -24,7 +35,7 @@ def take_screenshot_and_html(url, screenshot_path, html_path):
 
 
 if __name__ == "__main__":
-    with open("config.json") as f:
+    with open("config.json", encoding="utf-8") as f:
         cfg = json.load(f)
 
     url = cfg["url"]
@@ -46,7 +57,7 @@ if __name__ == "__main__":
     if dom_ok:
         result_msg.append("✅ DOM совпадает")
     else:
-        result_msg.append("Упс... Найдены отличия в DOM (DOM_diff.txt)")
+        result_msg.append("Упс... Найдены отличия в DOM (dom_diff.txt)")
 
     final_report = "\n".join(result_msg)
     print(final_report)
