@@ -1,11 +1,9 @@
 import time
 import json
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from compare import pixel_compare, dom_compare
 from notify import send_telegram
-
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 
 def take_screenshot_and_html(url, screenshot_path, html_path):
     options = Options()
