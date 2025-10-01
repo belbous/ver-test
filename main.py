@@ -1,6 +1,4 @@
-import time
 import json
-from selenium import webdriver
 from compare import pixel_compare, dom_compare
 from notify import send_telegram
 
@@ -24,7 +22,7 @@ def take_screenshot_and_html(url, screenshot_path, html_path):
 
 
 if __name__ == "__main__":
-    with open("config.json") as f:
+    with open("config.json", encoding="utf-8") as f:
         cfg = json.load(f)
 
     url = cfg["url"]
@@ -35,7 +33,7 @@ if __name__ == "__main__":
     img_ok = pixel_compare(cfg["baseline"], cfg["screenshot"])
     # сравнение DOM
     with open("baseline.html", encoding="utf-8") as f1, open("current.html", encoding="utf-8") as f2:
-        dom_ok = dom_compare(f1.read(), f2.read())
+        dom_ok = dom_compare(f1.read(), f2.read(), report_path="dom_diff.txt")
 
     result_msg = []
     if img_ok:
@@ -46,7 +44,7 @@ if __name__ == "__main__":
     if dom_ok:
         result_msg.append("✅ DOM совпадает")
     else:
-        result_msg.append("Упс... Найдены отличия в DOM (DOM_diff.txt)")
+        result_msg.append("Упс... Найдены отличия в DOM (dom_diff.txt)")
 
     final_report = "\n".join(result_msg)
     print(final_report)
