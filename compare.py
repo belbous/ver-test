@@ -6,6 +6,15 @@ def pixel_compare(baseline_path, current_path, diff_path="diff.png"):
     baseline = Image.open(baseline_path)
     current = Image.open(current_path)
 
+    # Ensure identical mode and size for a valid difference operation
+    if baseline.mode != "RGBA":
+        baseline = baseline.convert("RGBA")
+    if current.mode != "RGBA":
+        current = current.convert("RGBA")
+
+    if current.size != baseline.size:
+        current = current.resize(baseline.size, Image.LANCZOS)
+
     diff = ImageChops.difference(baseline, current)
 
     if diff.getbbox():
